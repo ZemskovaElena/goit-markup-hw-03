@@ -23,6 +23,10 @@ img {
   display: block;
 }
 
+address {
+  font-style: normal;
+}
+
 body {
   font-family: var(--primery-font-family);
   color: var(--main-text-color-theme-light);
@@ -37,6 +41,9 @@ body {
 }
 
 /*============ START HEADER =============*/
+
+
+
 .logo-link {
   font-family: var(--secondary-font-family);
   font-weight: 700;

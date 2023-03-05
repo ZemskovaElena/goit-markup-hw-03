@@ -86,6 +86,12 @@ body {
   color: #000000;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+
 /*.logo-color-white {
 color: var(--text-color-theme-dark);
 }*/
@@ -101,9 +107,25 @@ color: var(--active-font);
 
 .primery-box {
   background: #2f303a;
+  
 }
 
+.box-con{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  padding-bottom: 200px;
+}
+
+
 .primery-title {
+margin-left: 237px;
+margin-right: 237px;
+padding-top: 200px;
+margin-bottom: 30px;
+  min-width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -115,12 +137,14 @@ color: var(--active-font);
 
 .primery-btn {
   border-radius: 4px;
-  padding: 10px 20px;
-  min-width: 152px;
+  border: 0px;
+  padding: 10px 25px;
+  min-width: 216px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;

@@ -49,12 +49,14 @@ body {
 }
 
 /*============ START HEADER =============*/
-
+.main-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .page-nav {
   display: flex;
@@ -112,6 +114,9 @@ color: var(--active-font);
 }
 
 .primery-btn {
+  border-radius: 4px;
+  padding: 10px 20px;
+  min-width: 152px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -157,6 +162,8 @@ color: var(--active-font);
   letter-spacing: 0.02em;
   color: var(--main-text-color-theme-light);
   cursor: pointer;
+  margin-left: auto;
+  margin-right: 30px;
 }
 
 .contact-mail:focus,

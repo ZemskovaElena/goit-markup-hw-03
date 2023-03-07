@@ -48,6 +48,12 @@ body {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+
 /*============ START HEADER =============*/
 .main-header {
   padding-top: 24px;
@@ -86,10 +92,6 @@ body {
   color: #000000;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 
 /*.logo-color-white {
@@ -107,6 +109,7 @@ color: var(--active-font);
 
 .primery-box {
   background: #2f303a;
+ 
   
 }
 
@@ -209,12 +212,22 @@ margin-bottom: 30px;
   color: var(--active-font);
 }
 
+.main-list {
+  display: flex;
+}
+
+.main-list-item:not(:last-child) {
+  margin-right: 30px;
+  min-width: 270px;
+}
+
 .main-list-subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
   color: var(--secondary-text-color-theme-light);
 }
 

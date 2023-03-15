@@ -57,14 +57,13 @@ body {
 
 .section {
   padding-top: 94px;
-  padding-bottom: 94px;
+  /*padding-bottom: 94px;*/
 }
 
 
 /*============ START HEADER =============*/
 .main-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .header-container {
@@ -80,6 +79,12 @@ body {
 .nav-list {
   display: flex;
   align-items: center;
+}
+
+.nav-list-link-act {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .logo-link {
@@ -104,7 +109,6 @@ body {
 }
 
 
-
 /*.logo-color-white {
 color: var(--text-color-theme-dark);
 }*/
@@ -122,26 +126,29 @@ color: var(--active-font);
 
 .primery-box {
   background: #2f303a;
-
-
+padding-top: 200px;
+padding-bottom: 200px;
+text-align: center;
 }
 
 .box-con {
-  display: flex;
+/* display: flex;
   align-items: center;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  padding-bottom: 200px;
+  padding-bottom: 200px;*/
 }
 
 
 .primery-title {
-  margin-left: 237px;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-left: 237px;
   margin-right: 237px;
-  padding-top: 200px;
+  padding-top: 200px;*/
   margin-bottom: 30px;
-  min-width: 696px;
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -159,10 +166,10 @@ color: var(--active-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
+  /*display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: center;*/
   letter-spacing: 0.06em;
   color: var(--text-color-theme-dark);
   background-color: var(--active-font);
@@ -229,6 +236,10 @@ color: var(--active-font);
   display: flex;
 }
 
+.gallery-con {
+  padding-bottom: 94px;
+}
+
 .main-list-item:not(:last-child) {
   margin-right: 30px;
   min-width: 270px;
@@ -280,9 +291,11 @@ color: var(--active-font);
 .crew-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
+  /*margin-left: -30px;*/
 
 }
+
+.cr
 
 .crew-list-item:not(:nth-child(4n)) {
   margin-right: 30px;
@@ -303,8 +316,8 @@ color: var(--active-font);
 .crew-pers {
   padding-top: 30px;
   padding-bottom: 30px;
-  border: 1px solid #ffffff;
-  border-top: none;
+  /*border: 1px solid #ffffff;
+  border-top: none;*/
   border-radius: 0px 0px 4px 4px;
   background: #FFFFFF;
 }
@@ -322,6 +335,7 @@ color: var(--active-font);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-light);
+  margin-bottom: 10px;
 }
 
 .crew-list-item-prof {
@@ -425,10 +439,12 @@ color: var(--active-font);
 
 /*============ START FOOTER =============*/
 
+
 .ft {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  margin-top: 94px;
 }
 
 .link-ft {

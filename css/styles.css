@@ -57,7 +57,7 @@ body {
 
 .section {
   padding-top: 94px;
-  /*padding-bottom: 94px;*/
+  padding-bottom: 94px;
 }
 
 
@@ -118,14 +118,6 @@ body {
 }
 
 
-/*.logo-color-white {
-color: var(--text-color-theme-dark);
-}*/
-
-/*.logo-link :hover,
-.logo-link :focus {
-color: var(--active-font);
-}*/
 
 /*============ END HEADER ===============*/
 
@@ -140,22 +132,9 @@ color: var(--active-font);
   text-align: center;
 }
 
-.box-con {
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  padding-bottom: 200px;*/
-}
-
-
 .primery-title {
   margin-left: auto;
   margin-right: auto;
-  /*margin-left: 237px;
-  margin-right: 237px;
-  padding-top: 200px;*/
   margin-bottom: 30px;
   width: 696px;
   font-weight: 900;
@@ -175,10 +154,6 @@ color: var(--active-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  /*display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;*/
   letter-spacing: 0.06em;
   color: var(--text-color-theme-dark);
   background-color: var(--active-font);
@@ -241,13 +216,14 @@ color: var(--active-font);
   color: var(--active-font);
 }
 
+.section-main {
+  padding-top: 94px;
+}
+
 .main-list {
   display: flex;
 }
 
-.gallery-con {
-  padding-bottom: 94px;
-}
 
 .main-list-item:not(:last-child) {
   margin-right: 30px;
@@ -300,8 +276,6 @@ color: var(--active-font);
 .crew-list {
   display: flex;
   flex-wrap: wrap;
-  /*margin-left: -30px;*/
-
 }
 
 .cr .crew-list-item:not(:nth-child(4n)) {
@@ -310,6 +284,10 @@ color: var(--active-font);
 
 .crew-list-item:not(:nth-last-child(-n+4)) {
   margin-bottom: 30px;
+}
+
+.crew-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .crew-list-item {
@@ -323,8 +301,6 @@ color: var(--active-font);
 .crew-pers {
   padding-top: 30px;
   padding-bottom: 30px;
-  /*border: 1px solid #ffffff;
-  border-top: none;*/
   border-radius: 0px 0px 4px 4px;
   background: #FFFFFF;
 }
@@ -362,7 +338,7 @@ color: var(--active-font);
 .list-btn {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .list-btn-item:not(:last-child) {
@@ -423,7 +399,6 @@ color: var(--active-font);
   padding-bottom: 20px;
   border: 1px solid #EEEEEE;
   border-top: none;
-  border-radius: 4px;
   padding-left: 24px;
   padding-right: 24px;
 }
@@ -453,10 +428,9 @@ color: var(--active-font);
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin-top: 94px;
 }
 
-.link-ft {
+.adress-ft {
   margin-top: 20px;
 }
 
